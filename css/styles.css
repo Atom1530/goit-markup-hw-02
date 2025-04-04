@@ -7,7 +7,7 @@
 :root {
     --iris: #4d5ae5;
     --ocean: #404bbf;
-    --navy-blue: #2e2f42;
+    --navy-blue: #422e30;
     --green: #31d0aa;
     --slate: #434455;
     --light-slate: #8e8f99;
@@ -21,8 +21,8 @@
 
  body {
     font-family: "Roboto", sans-serif;
-    color: var(--slate);
-    background-color: var(--white);
+    color: #434455;
+    background-color: #fff;
  }
 
  ul, ol {
@@ -32,3 +32,53 @@ list-style-type: none;
  a {
     text-decoration: none;
  }
+
+.logo {
+    font-family: var(--second-family);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+ 
+.header-logo .logo-part {
+ color: #422e30;
+}
+
+.footer-logo .logo-part {
+ color: #f4f4fd;;
+}
+.nav-link {
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.02em;
+      color: #422e30;;
+}
+
+
+.contacts-link {
+   font-size: 16px;
+   line-height: 1.5;
+   letter-spacing: 0.02em;
+   color: #434455;
+}
+
+.contacts {
+   font-style: normal;
+}
+
+.contacts-link:hover,
+.contacts-link:focus,
+.nav-link:hover,
+.nav-link:focus {
+   color: #404bbf;
+}
+
+.page-footer {
+background-color: #2e2f42;
+color: #f4f4fd;
+}
+
